@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.border-secondary {
+    --bs-border-opacity: 1;
+    border-color: rgba(var(--bs-secondary-rgb), var(--bs-border-opacity)) !important;
+  }
+
+  .txt-white {
+    text-decoration: #fff;
+  }
+
+  .text-blue {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-blue-rgb), var(--bs-text-opacity)) !important;
+  }
+
+  .btn-primary {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #fff;
+    --bs-btn-border-color: #3c6aff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #FF4817;
+    --bs-btn-hover-border-color: #fff;
+    --bs-btn-focus-shadow-rgb: 246, 122, 88;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #ffe2da;
+    --bs-btn-active-border-color: 200px #3c6aff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #3c6aff; /*quando o btn está desabilitado*/
+    --bs-btn-disabled-bg: #fff; /*quando o btn está desabilitado*/
+    --bs-btn-disabled-border-color: #fff;
+  }
+
+  .button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    padding: 7px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 9px;
+    margin: 4px 1px;
+    cursor: pointer;
+  }
+
+  .negrito {
+    font-weight: bold;
+}
+
